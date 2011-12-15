@@ -10,12 +10,12 @@ set i-o vim
 alias diff="diff -u"
 
 # Long list directory contents
-# long, color, sort by time (by last modified)
-alias ll="ls -lGt"
+# show hidden, long, color, sort by time (by last modified)
+alias ll="ls -alGt"
 
 # Long list directory contents by last access
-# long, color, sort by time, by last access
-alias la="ls -lGtu"
+# show dot, long, color, sort by time, by last access
+alias la="ls -alGtu"
 
 # Adjust listed directory colors
 declare -x CLICOLOR=1
