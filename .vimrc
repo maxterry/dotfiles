@@ -21,12 +21,32 @@ set backspace=indent,eol,start
 set shiftround
 set smarttab
 
-"map <c-w c-w> =
-" OS X: Use system keyboard 
-"vmap <C-c> y:call system("pbcopy", getreg("\""))<CR>
-"nmap <C-v> :call setreg("\"",system("pbpaste"))<CR>
-
 " Mappings
+
+" Esc
+" noremap <caps> <esc>
+
+" Delete character
+" noremap x x
+
+" Backspace character
+" noremap X X
+
+" Delete word
+noremap dw "_dw
+
+" Delete Word
+noremap dW "_dW
+
+" Delete to end of word
+noremap de "_de
+
+" Delete to end of Word
+noremap dE "_dE
+
+" Delete line
+noremap dd "_dd
+
 " Join
 noremap G J
 
@@ -52,10 +72,25 @@ noremap \ :nohlsearch<enter>
 noremap <enter> i<enter><esc>
 
 " Backspace
-noremap <bs> i<bs> 
+noremap <bs> i<bs>
 
-" Esc
-"imap <shift-space> <esc>
+" Undo
+" noremap u u
+
+" Redo
+noremap U <c-r>
+
+" Insert
+" noremap i i
+
+" Insert at beginning of line
+" noremap I I
+
+" Paste after
+" noremap p p
+
+" Paste before
+" noremap P P
 
 " Syntax
 syntax on
@@ -84,10 +119,10 @@ hi MoreMsg    ctermfg=magenta
 hi Question   ctermfg=green
 
 hi DiffAdd    ctermbg=LightBlue    guibg=LightBlue
-hi DiffChange ctermbg=Lightred 		   guibg=LightMagenta
+hi DiffChange ctermbg=Lightred         guibg=LightMagenta
 hi DiffDelete ctermfg=Blue         ctermbg=LightCyan gui=bold guifg=Blue guibg=LightCyan
 hi DiffText   ctermbg=Red          cterm=bold gui=bold guibg=Red
-hi Directory  ctermfg=Cyan 		   guifg=Blue
+hi Directory  ctermfg=Cyan         guifg=Blue
 hi ErrorMsg   ctermfg=White        ctermbg=DarkRed  guibg=Red       guifg=White
 hi FoldColumn ctermfg=DarkBlue     ctermbg=Grey     guibg=Grey      guifg=DarkBlue
 hi Folded     ctermbg=Grey         ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue
