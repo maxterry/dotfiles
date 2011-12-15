@@ -62,8 +62,11 @@ noremap J G
 " Bottom of buffer
 noremap K gg
 
-" Delete comment
-"noremap dc f"beld$
+" Copy and paste current line below
+noremap yp yyp
+
+" Copy and paste current line above
+noremap yP yyP
 
 " Hide search results
 noremap \ :nohlsearch<enter>
