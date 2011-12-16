@@ -1,38 +1,39 @@
 # ~/.gitconfig
 
 [core]
-	excludesfile = /Users/max/.gitignore
+    excludesfile = /Users/max/.gitignore
 
 [user]
-	name 		 = Max Terry
-	email 		 = max.terry@majellagt.com
+    name         = Max Terry
+    email        = max.terry@majellagt.com
 
 [alias]
-	s			 = status -s				# Short status
-	vs			 = diff --cached			# Compare to last commit
-	new			 = checkout -b				# Create and switch branches
-	past 		 = log --oneline --graph	# Short history graph
-	unstage 	 = reset HEAD				# Unstage current changes
-	save		 = commit -m				# Save current changes
-	amend 		 = commit --amend 			# Amend the last commit
-	rn			 = branch -m				# Rename a branch
-	br			 = branch					# Branch
+    s            = status -s                # Short status
+    vs           = diff --cached            # Compare to last commit
+    new          = checkout -b              # Create and switch branches
+    past         = log --oneline --graph    # Short history graph
+    unstage      = reset HEAD               # Unstage current changes
+    save         = commit -m                # Save current changes
+    amend        = commit --amend           # Amend the last commit
+    rn           = branch -m                # Rename a branch
+    br           = branch                   # Branch
+    undo         = reset --soft HEAD^       # Undo last commit 
 
 [color]
-	ui 			 = true						# Enable colors	
+    ui           = true                     # Enable colors 
 
 [color "diff"]
-	meta 		 = yellow bold				# File info
-	frag 		 = magenta					# File location
-	old 		 = red						# Removed lines
-	new 		 = green					# Added lines
+    meta         = yellow bold              # File info
+    frag         = magenta                  # File location
+    old          = red                      # Removed lines
+    new          = green                    # Added lines
 
 [color "status"]
-	added 		 = green					# Added file
-	changed 	 = yellow					# Changed file
-	untracked 	 = red						# Untracked file
+    added        = green                    # Added file
+    changed      = yellow                   # Changed file
+    untracked    = red                      # Untracked file
 
 [color "branch"]
-	current		 = green reverse			# Current branch
-	local		 = green					# Local branch
-	remote		 = yellow					# Remote branch
+    current      = green reverse            # Current branch
+    local        = green                    # Local branch
+    remote       = yellow                   # Remote branch
