@@ -13,7 +13,7 @@
     new          = checkout -b              # Create and switch branches
     past         = log --oneline --graph    # Short history graph
     unstage      = reset HEAD               # Unstage current changes
-    save         = commit -m                # Save current changes
+    save         = commit -am               # Save current changes
     amend        = commit --amend           # Amend the last commit
     rn           = branch -m                # Rename a branch
     br           = branch                   # Branch
