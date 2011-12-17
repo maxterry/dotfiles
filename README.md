@@ -1,8 +1,4 @@
-rc
-==
+dotfiles
+========
 
-Evolving runtime configuration files for
-
-* bash
-* vim
-* git
+Config.
