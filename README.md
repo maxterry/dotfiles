@@ -6,7 +6,7 @@ Config.
 Installation
 ------------
 
-    > cd *location*
+    > cd [location]
     > git clone git://github.com/maxwellterry/dotfiles.git
     > cd dotfiles
     > ln -nfs .profile ~/.profile
