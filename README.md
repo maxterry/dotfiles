@@ -6,9 +6,9 @@ Config.
 Installation
 ------------
 
-    > cd [location]
+    > cd ~
     > git clone git://github.com/maxwellterry/dotfiles.git
     > cd dotfiles
-    > ln -nfs .profile ~/.profile
-    > ln -nfs .vimrc ~/.vimrc
-    > ln -nfs .gitconfig ~/.gitconfig
+    > ln .profile ~/.profile
+    > ln .vimrc ~/.vimrc
+    > ln .gitconfig ~/.gitconfig
