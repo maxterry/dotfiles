@@ -18,7 +18,7 @@
     rn           = branch -m                # Rename a branch
     br           = branch                   # Branch
     undo         = reset --soft HEAD^       # Undo last commit 
-    cleanup      = git rm $(git ls-files --deleted) # Remove deleted files
+    cleanup      = git add -u               # Remove deleted files
 
 [color]
     ui           = true                     # Enable colors 
@@ -38,3 +38,6 @@
     current      = green reverse            # Current branch
     local        = green                    # Local branch
     remote       = yellow                   # Remote branch
+
+[push]
+    default      = tracking                 # Only push current branch to remote
