@@ -12,3 +12,4 @@ Installation
     > ln .profile ~/.profile
     > ln .vimrc ~/.vimrc
     > ln .gitconfig ~/.gitconfig
+    > ln .gitignore ~/.gitignore
