@@ -95,6 +95,10 @@ noremap U <c-r>
 " Paste before
 " noremap P P
 
+" Comment out line
+" TODO Language-specific
+noremap # ^i//<esc>
+
 " Syntax
 syntax on
 hi clear
