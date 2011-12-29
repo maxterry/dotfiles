@@ -18,7 +18,8 @@
     rn           = branch -m                # Rename a branch
     br           = branch                   # Branch
     undo         = reset --soft HEAD^       # Undo last commit 
-    cleanup      = add -u               # Remove deleted files
+    cleanup      = add -u                   # Remove deleted files
+    prune        = branch -d                # Remove branch
 
 [color]
     ui           = true                     # Enable colors 
