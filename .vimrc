@@ -47,6 +47,9 @@ noremap dE "_dE
 " Delete line
 noremap dd "_dd
 
+" Delete char
+noremap x "_x
+
 " Join
 noremap G J
 
