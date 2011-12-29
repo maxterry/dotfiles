@@ -95,6 +95,9 @@ noremap U <c-r>
 " Paste before
 " noremap P P
 
+" Tab
+noremap <tab> i<tab><esc>
+
 " Comment out line
 " TODO Language-specific
 noremap # ^i//<esc>
