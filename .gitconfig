@@ -19,7 +19,7 @@
     br           = branch                   # Branch
     undo         = reset --soft HEAD^       # Undo last commit 
     cleanup      = add -u                   # Remove deleted files
-    prune        = branch -d                # Remove branch
+    prune        = branch -D                # Remove branch
 
 [color]
     ui           = true                     # Enable colors 
