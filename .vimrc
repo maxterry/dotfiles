@@ -23,14 +23,18 @@ set smarttab
 
 " Mappings
 
+" Make <s-tab> work
+map <esc>[Z <s-tab>
+ounmap <esc>[Z
+
 " Esc
 " noremap <caps> <esc>
 
-" Delete character
-" noremap x x
-
 " Backspace character
-" noremap X X
+noremap x "_X
+
+" Delete character
+noremap X "_x
 
 " Delete word
 noremap dw "_dw
@@ -46,9 +50,6 @@ noremap dE "_dE
 
 " Delete line
 noremap dd "_dd
-
-" Delete char
-noremap x "_x
 
 " Join
 noremap G J
@@ -71,15 +72,15 @@ noremap yp yyp
 " Copy and paste current line above
 noremap yP yyP
 
+" Cut the current line
+noremap yd yydd
+
 " Hide search results
 noremap \ :nohlsearch<enter>
 
 " Enter
 noremap <enter> i<enter><esc>
-
-" Backspace
-noremap <bs> i<bs>
-
+ 
 " Undo
 " noremap u u
 
@@ -99,7 +100,10 @@ noremap U <c-r>
 " noremap P P
 
 " Tab
-noremap <tab> i<tab><esc>
+noremap <tab> i<tab><esc>^
+
+" Untab
+map <s-tab> i<bs><esc>^
 
 " Comment out line
 " TODO Language-specific
