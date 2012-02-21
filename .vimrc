@@ -1,5 +1,3 @@
-" ~/.vimrc
-
 set nocompatible
 set title
 set nu

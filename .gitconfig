@@ -1,5 +1,3 @@
-# ~/.gitconfig
-
 [core]
     excludesfile = /Users/max/.gitignore
 
