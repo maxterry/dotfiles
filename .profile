@@ -3,9 +3,6 @@
 # Change prompt colors
 PS1='\[\e[1;32m\]\u\[\e[m\] \[\e[0;36m\]\w\[\e[m\] \[\e[1;32m\]>\[\e[m\] \[\e[0;37m\]'
 
-# vi cli
-set i-o vim
-
 # Unified diff
 alias diff="diff -u"
 
@@ -20,6 +17,9 @@ alias la="ls -alGtu"
 # Adjust listed directory colors
 declare -x CLICOLOR=1
 declare -x LSCOLORS=gxfxcxdxbxegedabagacad
+
+# Use TextMate as editor
+export EDITOR="$HOME/bin/mate -w"
 
 # Node.js
 export NODE_PATH="/usr/local/lib/node"
