@@ -20,6 +20,7 @@
     prune        = br -D                    # Remove branch
     to           = checkout                 # Change branch 
     get          = fetch -v                 # Fetch updates
+    d            = diff | mate              # Diff in Textmate
 
 [color]
     ui           = true                     # Enable colors 

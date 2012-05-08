@@ -12,6 +12,9 @@ alias ll="ls -alGt"
 # show dot, long, color, sort by time, by last access
 alias la="ls -alGtu"
 
+# Remove .pyc files
+alias rmpyc="find . -name '*.pyc' -exec rm {} \;"
+
 # Adjust listed directory colors
 declare -x CLICOLOR=1
 declare -x LSCOLORS=gxfxcxdxbxegedabagacad
@@ -22,3 +25,9 @@ export EDITOR="$HOME/bin/mate -w"
 # Node.js
 export NODE_PATH="/usr/local/lib/node"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
+
+# Activate virtualenv
+alias virt="source ~/Documents/env/bin/activate"
+
+# Activate default environment
+alias real="source ~/.profile"
