@@ -29,5 +29,5 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/shar
 # Activate virtualenv
 alias virt="source ~/Documents/env/bin/activate"
 
-# Activate default environment
+# Activate local environment
 alias real="source ~/.profile"
