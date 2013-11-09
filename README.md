@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-Config.
+Shell configuration.
 
 Installation
 ------------
