@@ -18,16 +18,3 @@ alias rmpyc="find . -name '*.pyc' -exec rm {} \;"
 # Adjust listed directory colors
 declare -x CLICOLOR=1
 declare -x LSCOLORS=gxfxcxdxbxegedabagacad
-
-# Use TextMate as editor
-export EDITOR="$HOME/bin/mate -w"
-
-# Node.js
-export NODE_PATH="/usr/local/lib/node"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
-
-# Activate virtualenv
-alias virt="source ~/Documents/env/bin/activate"
-
-# Activate local environment
-alias real="source ~/.profile"
