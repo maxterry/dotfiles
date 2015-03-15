@@ -7,7 +7,7 @@ Installation
 ------------
 
     > cd ~
-    > git clone git://github.com/maxwellterry/dotfiles.git
+    > git clone git://github.com/1083/dotfiles.git
     > cd dotfiles
     > ln .profile ~/.profile
     > ln .vimrc ~/.vimrc
