@@ -21,3 +21,7 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC -I rc'
 # Adjust listed directory colors
 declare -x CLICOLOR=1
 declare -x LSCOLORS=gxfxcxdxbxegedabagacad
+
+# Go path
+export PATH=$PATH:/usr/local/go/bin
+
