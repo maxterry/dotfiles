@@ -15,9 +15,6 @@ alias la="ls -alGtu"
 # Remove .pyc files
 alias rmpyc="find . -name '*.pyc' -exec rm {} \;"
 
-# VLC
-alias vlc='/Applications/VLC.app/Contents/MacOS/VLC -I rc'
-
 # Adjust listed directory colors
 declare -x CLICOLOR=1
 declare -x LSCOLORS=gxfxcxdxbxegedabagacad
