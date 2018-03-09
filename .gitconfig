@@ -1,9 +1,9 @@
 [core]
-    excludesfile = /Users/max/.gitignore
 
 [user]
     name         = Max Terry
     email        = mhterry@gmail.com
+    excludesfile = ~/.gitignore
 
 [alias]
     s            = status -s                # Short status
