@@ -11,14 +11,14 @@
     amend        = commit --amend           # Amend the last commit
     rn           = branch -m                # Rename a branch
     br           = branch                   # Branch
-    undo         = reset --soft HEAD^       # Undo last commit 
+    undo         = reset --soft HEAD^       # Undo last commit
     cleanup      = add -u                   # Remove deleted files
     prune        = br -D                    # Remove branch
-    to           = checkout                 # Change branch 
+    to           = checkout                 # Change branch
     get          = fetch -v                 # Fetch updates
 
 [color]
-    ui           = true                     # Enable colors 
+    ui           = true                     # Enable colors
 
 [color "diff"]
     meta         = yellow bold              # File info
