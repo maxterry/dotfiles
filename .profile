@@ -23,5 +23,4 @@ declare -x CLICOLOR=1
 declare -x LSCOLORS=gxfxcxdxbxegedabagacad
 
 # Go path
-export PATH=$PATH:/usr/local/go/bin
-
+export GOPATH=$HOME/golang
