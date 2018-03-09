@@ -1,8 +1,4 @@
 [core]
-
-[user]
-    name         = Max Terry
-    email        = mhterry@gmail.com
     excludesfile = ~/.gitignore
 
 [alias]
