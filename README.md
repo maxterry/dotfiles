@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Shell, git, vim configuration files.
+Shell, git, vim, and Sublime configuration files.
