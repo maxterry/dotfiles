@@ -1,0 +1,33 @@
+{
+	"always_show_minimap_viewport": true,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
+	"cmd":
+	[
+		"python3",
+		"-u",
+		"$file"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"default_line_ending": "unix",
+	"draw_white_space": "all",
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"font_size": 12,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"margin": -2,
+	"path": "/usr/local/bin",
+	"rulers":
+	[
+		80
+	],
+	"selector": "source.python",
+	"show_tab_close_buttons": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_"
+}

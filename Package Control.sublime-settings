@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Flatron",
+		"GitGutter",
+		"Package Control",
+		"Pue Syntax Highlight",
+		"Pug",
+		"Sass",
+		"SASS Snippets",
+		"SublimeLinter-tslint",
+		"SublimeREPL",
+		"TypeScript",
+		"Vintageous",
+		"Vue Syntax Highlight"
+	]
+}
