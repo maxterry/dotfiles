@@ -10,7 +10,7 @@
     save         = commit -am               # Save current changes
     amend        = commit --amend           # Amend the last commit
     rn           = branch -m                # Rename a branch
-    br           = branch                   # Branch
+    br           = branch -vv               # Current branch, with latest commit and upstream branch
     undo         = reset --soft HEAD^       # Undo last commit
     cleanup      = add -u                   # Remove deleted files
     prune        = br -D                    # Remove branch
