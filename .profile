@@ -23,8 +23,8 @@ alias diff="diff -u"
 # show dot, long, color, sort by time, by last access
 alias la="ls -alGtu"
 
-# Long list directory contents
-# show hidden, long, color, sort by time (by last modified)
+# Long list directory contents by last modified
+# show hidden, long, color, sort by time, by last modified
 alias lm="ls -alGt"
 
 # Pretty print JSON
@@ -33,27 +33,8 @@ alias pretty='python -mjson.tool | pygmentize -l json'
 # Remove compiled Python (.pyc) files
 alias rmpyc="find . -name '*.pyc' -exec rm {} \;"
 
-# Git's current branch and  short status
-alias s='git br; git s'
+# Start local server with live reloading
+alias s='npm start'
 
-
-## OS-specific
-
-### macOS
-
-# Open with Atom text editor
-# ln -s '%USERPROFILE%\AppData\Local\atom\app-1.25.0\resources\cli' /usr/local/bin/atom
-
-# VLC
-# alias vlc='/Applications/VLC.app/Contents/MacOS/VLC -I rc'
-
-# Go Path
-# export PATH=$PATH:/usr/local/go/bin
-
-### Windows
-
-# Launch Chrome with CORS disabled for localhost
-alias cr='"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="c:\my\data" "http://localhost:4200" &'
-
-# Add Python to the path in Git Bash
-# export PATH="$PATH:/c/Python27"
+# Lint current project
+alias l='npm run lint'
