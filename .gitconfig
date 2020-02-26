@@ -16,6 +16,8 @@
     prune        = br -D                    # Remove branch
     to           = checkout                 # Change branch
     get          = fetch -v                 # Fetch updates
+    set          = branch --set-upstream    # Set upstream branch
+    unset        = branch --unset-upstream  # Unset upstream branch
 
 [color]
     ui           = true                     # Enable colors
