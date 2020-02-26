@@ -18,6 +18,7 @@
     get          = fetch -v                 # Fetch updates
     set          = branch --set-upstream    # Set upstream branch
     unset        = branch --unset-upstream  # Unset upstream branch
+    count        = shortlog -sn             # List contributors and commits sorted by count
 
 [color]
     ui           = true                     # Enable colors
