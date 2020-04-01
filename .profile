@@ -1,5 +1,3 @@
-## Prompt
-
 # User
 # PS1='\[\e[1;32m\]\u\[\e[m\] \[\e[0;36m\]\w\[\e[m\] \[\e[1;32m\]>\[\e[m\] \[\e[0;37m\]'
 
@@ -12,9 +10,6 @@ PS1='\[\e[1;32m\]`date -I` `date +%H:%M:%S`\[\e[m\] \[\e[0;36m\]\w\[\e[m\]\[\e[1
 # Adjust listed directory colors
 declare -x CLICOLOR=1
 declare -x LSCOLORS=gxfxcxdxbxegedabagacad
-
-
-## Aliases
 
 # Unified diff
 alias diff="diff -u"
@@ -30,11 +25,11 @@ alias lm="ls -alGt"
 # Pretty print JSON
 alias pretty='python -mjson.tool | pygmentize -l json'
 
-# Remove compiled Python (.pyc) files
-alias rmpyc="find . -name '*.pyc' -exec rm {} \;"
-
-# Start local server with live reloading
+# Start package
 alias s='npm start'
 
-# Lint current project
+# Lint package
 alias l='npm run lint'
+
+# Add ./node_modules/.bin to end of $PATH
+export PATH="$PATH:./node_modules/.bin"
