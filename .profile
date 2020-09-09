@@ -22,6 +22,10 @@ alias la="ls -alGtu"
 # show hidden, long, color, sort by time, by last modified
 alias lm="ls -alGt"
 
+# A more wholesome sudo
+# https://twitter.com/ctrlshifti/status/1160812366293901314
+alias please='sudo'
+
 # Pretty print JSON
 alias pretty='python -mjson.tool | pygmentize -l json'
 
