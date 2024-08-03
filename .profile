@@ -37,3 +37,7 @@ alias l='npm run lint'
 
 # Add ./node_modules/.bin to end of $PATH
 export PATH="$PATH:./node_modules/.bin"
+
+# Convert video
+# https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132
+# alias vidconvert='ffmpeg -i $1 -c copy $2'
